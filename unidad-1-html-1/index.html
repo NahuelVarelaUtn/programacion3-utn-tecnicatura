@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda entrega HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Nahuel Varela - Barista Tostador</h1>
+    </header>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input 
+            type="text" 
+            id="nombre" 
+            name="nombre" 
+            required><br><br
+            placeholder="Ingrese su nombre"
+        >
+        
+        <label for="email">Email:</label>
+        <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            required><br><br
+            placeholder="Ingrese su email"
+        >
+
+        <label for="password">Contraseña:</label>
+        <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            required><br><br
+            placeholder="Ingrese su contraseña"
+        >
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+            <option value="">Seleccione su país</option>
+            <option value="argentina">Argentina</option>
+            <option value="chile">Chile</option>
+            <option value="brasil">Brasil</option>
+            <option value="uruguay">Uruguay</option>
+        </select><br><br>
+
+        
+        <label for="presentacion">Presentación:</label>
+        <textarea 
+            id="presentacion" 
+            name="presentacion" 
+            rows="4" 
+            cols="50" 
+            placeholder="Escriba una breve presentación sobre usted"
+        ></textarea><br><br>
+        
+
+        <button type="submit">Registrarse</button>
+    </form>
+
+
+
+    
+</body>
+</html>
