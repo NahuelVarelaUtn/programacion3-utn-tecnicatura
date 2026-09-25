@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La buena mesa</title>
+</head>
+<body>
+    <header>
+        <h1>La buena mesa</h1>
+        <p>Sabores que inspiran</p>
+
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+gem
+    <main>
+        <section id="menu">
+            <h2>Bienvenidos a La buena mesa</h2>
+            <p>Nuestro menú es el siguiente: </p>
+            <h2>Platos principales</h2>
+
+            <article>
+                <h3>Milanesa de la casa</h3>
+                <p>Una deliciosa milanesa de ternera empanada y frita, servida con papas fritas y ensalada.</p>
+            </article>
+
+            <article>
+                <h3>Pizza Margarita</h3>
+                <p>Pizza clásica con salsa de tomate, mozzarella y albahaca fresca.</p>
+            </article>
+
+            <article>
+                <h3>Ensalada César</h3>
+                <p>Lechuga fresca, crutones, queso parmesano y aderezo César.</p>
+            </article>
+
+        </section>
+
+        <hr>
+        <aside id="historia">
+            <h2>Nuestra historia</h2>
+            <p>Somos una familia de cocineros con más de 20 años de experiencia en la cocina argentina. Nuestro compromiso es ofrecer platos auténticos y de calidad, inspirados en las tradiciones culinarias de nuestra tierra.</p>
+        </aside>
+        <hr>
+
+        <section id="reservas">
+            <h2>Reservas</h2>
+            <p>Para realizar una reserva, por favor contáctenos a través de nuestro formulario de contacto o llámenos al número proporcionado en la sección de contacto.</p>
+
+            <form action="">
+                <fieldset>
+                    <legend> Datos de la reserva </legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type = "texto" id="nombre" name="nombre" required> <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type = "email" id="email" name="email" required> <br><br>
+
+                    <label for="fecha">Fecha de la reserva:</label>
+                    <input type = "date" id="fecha" name="fecha" required> <br><br>
+
+                    <label for="time">Hora de la reserva:</label> 
+                    <input type = "time" id="time" name="time" required> <br><br>
+
+                    <label for="personas">Número de personas:</label>
+                    <input type = "number" id="personas" name="personas" min="1" max="20" required> <br><br>
+
+                    <label for="comentarios">Comentarios adicionales:</label>
+                    <textarea
+                    placeholder="Ingrese sus comentarios aquí..." id="comentarios" name="comentarios" rows="4" cols=" 50"></textarea> <br><br>
+                    
+                    <input type="submit" value="Enviar reserva">
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 La buena mesa. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
